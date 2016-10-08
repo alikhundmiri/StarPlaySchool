@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+}
+
+.lander_intro{
+    <!--background-image: url('/../images/background_image.jpg');-->
+        background-image: url('http://img08.deviantart.net/d605/i/2015/111/b/1/mountain_hd__3840x2160__png_by_alimohyel_din-d6867r9.png');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_{
+    <!--background-image: url('http://kurld.com/images/wallpapers/beautiful-landscape-pictures/beautiful-landscape-pictures-21.jpg');
+
+    background-image: url('/../images/background_image.jpg');
+-->
+    background-image: url('http://img08.deviantart.net/d605/i/2015/111/b/1/mountain_hd__3840x2160__png_by_alimohyel_din-d6867r9.png');
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_1{
+    <!--background-image: url('http://kurld.com/images/wallpapers/beautiful-landscape-pictures/beautiful-landscape-pictures-21.jpg');-->
+    background-image: url('http://img08.deviantart.net/d605/i/2015/111/b/1/mountain_hd__3840x2160__png_by_alimohyel_din-d6867r9.png');
+
+}
+
+.intro-text {
+    font-family: Roboto;
+    color: #e8e8e8;
+    font-size: 80px;
+    text-align: center;
+}
+
+.intro-subtext {
+    font-family: Roboto;
+    color: #e8e8e8;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero-odd-left{
+    font-family: Roboto;
+    height: 380px;
+    background: #630012;
+    color: #e3e3e3;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.hero-odd-right{
+    font-family: Roboto;
+    height: 380px;
+    background: #e3e3e3;
+    color: #630012;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.hero-even-left{
+    font-family: Roboto;
+    height: 380px;
+    background: #e3e3e3;
+    color: #630012;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero-even-right{
+    font-family: Roboto;
+    height: 380px;
+    background: #630012;
+    color: #e3e3e3;
+    font-size: 30px;
+    text-align: left;
+}
+
+.hero-odd-left_2{
+    font-family: Roboto;
+    height: 480px;
+    background: #630012;
+    color: #e3e3e3;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.hero-odd-right_2{
+    font-family: Roboto;
+    height: 480px;
+    background: #e3e3e3;
+    color: #630012;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.hero-even-left_2{
+    font-family: Roboto;
+    height: 420px;
+    background: #e3e3e3;
+    color: #630012;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero-even-right_2{
+    font-family: Roboto;
+    height: 420px;
+    background: #630012;
+    color: #e3e3e3;
+    font-size: 30px;
+    text-align: left;
+}
+.breaker_1 {
+    font-family:Roboto;
+    background-color: #4a1411;
+    color: #e3e3e3;
+    text-align: center;
+    font-size: 40px;
+    height: 600px;
+}
+
+.guide_title{
+    font-family: Roboto;
+    font-size: 35px;
+    background: #440701;
+
+}
+.guide_head{
+    font-family: Roboto;
+    font-size: 25px;
+    color: #e3e3e3;
+    background: #440701;
+}
+.guide_text{
+    font-family: Roboto;
+    font-size: 20px;
+    color: #e3e3e3;
+    background: #440701;
+}
+
+.breaker_2 {
+    font-family:Roboto;
+    color: #4a1411;
+    background-color: #e3e3e3;
+    text-align: center;
+    font-size: 40px;
+    height: 600px;
+}
+.inverted_guide_title{
+    font-family: Roboto;
+    font-size: 35px;
+    background: #d0d0d0;
+    color: #440701;
+
+}
+.inverted_guide_head{
+    font-family: Roboto;
+    font-size: 25px;
+    background: #d0d0d0;
+    color: #440701;
+}
+.inverted_guide_text{
+    font-family: Roboto;
+    font-size: 20px;
+    background: #d0d0d0;
+    color: #440701;
+}
+.breaker_3 {
+    font-family:Roboto;
+    background-color: #4a1411;
+    color: #e3e3e3;
+    text-align: center;
+    font-size: 40px;
+    height: 600px;
+}
+.breaker_4 {
+    font-family:Roboto;
+    color: #4a1411;
+    background-color: #e3e3e3;
+    text-align: center;
+    font-size: 40px;
+    height: 800px;
+}
+
+
+
+
+/* set class to grow */
+.grow:hover
+{
+    transition:all 0.5s ease;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.text_grow:hover
+{
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.button_custom {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.button_custom:hover{
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color: white;
+    background-color: #4CAF50; /* Green */
+}
