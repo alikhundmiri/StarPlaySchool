@@ -6,8 +6,8 @@ body {
 }
 
 .lander_intro{
-    <!--background-image: url('/../images/background_image.jpg');-->
-        background-image: url('http://img08.deviantart.net/d605/i/2015/111/b/1/mountain_hd__3840x2160__png_by_alimohyel_din-d6867r9.png');
+    background-image: url('../images/spg_4_lander.jpeg');
+    filter: grayscale(150%);
     height: 700px;
     background-attachment: fixed;
     background-position: center;
@@ -15,21 +15,27 @@ body {
     background-size: cover;
 }
 .parallax_{
-    <!--background-image: url('http://kurld.com/images/wallpapers/beautiful-landscape-pictures/beautiful-landscape-pictures-21.jpg');
-
-    background-image: url('/../images/background_image.jpg');
--->
-    background-image: url('http://img08.deviantart.net/d605/i/2015/111/b/1/mountain_hd__3840x2160__png_by_alimohyel_din-d6867r9.png');
-    height: 300px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(1);
 }
 .img_1{
-    <!--background-image: url('http://kurld.com/images/wallpapers/beautiful-landscape-pictures/beautiful-landscape-pictures-21.jpg');-->
-    background-image: url('http://img08.deviantart.net/d605/i/2015/111/b/1/mountain_hd__3840x2160__png_by_alimohyel_din-d6867r9.png');
-
+    background-image: url('../images/spg_1.jpeg');
+}
+.img_2{
+    background-image: url('../images/spg_8.jpeg');
+}
+.img_3{
+    background-image: url('../images/spg_5.jpeg');
+}
+.img_4{
+    background-image: url('../images/spg_3.jpeg');
+}
+.img_5{
+    background-image: url('../images/spg_7_furniture.jpeg');
 }
 
 .intro-text {
@@ -87,7 +93,7 @@ body {
 
 .hero-odd-left_2{
     font-family: Roboto;
-    height: 480px;
+    height: 560px;
     background: #630012;
     color: #e3e3e3;
     font-size: 40px;
@@ -98,7 +104,7 @@ body {
 
 .hero-odd-right_2{
     font-family: Roboto;
-    height: 480px;
+    height: 560px;
     background: #e3e3e3;
     color: #630012;
     font-size: 30px;
@@ -184,7 +190,7 @@ body {
     color: #e3e3e3;
     text-align: center;
     font-size: 40px;
-    height: 600px;
+    height: 650px;
 }
 .breaker_4 {
     font-family:Roboto;
@@ -192,7 +198,7 @@ body {
     background-color: #e3e3e3;
     text-align: center;
     font-size: 40px;
-    height: 800px;
+    height: 1000px;
 }
 
 
