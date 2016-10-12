@@ -1,10 +1,19 @@
 body {
-    margin: 0;
     height: 100%;
     width: 100%;
     font-family: Roboto;
-}
+    background-image: url('../images/spg_2.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+.top{
+    font-family: Roboto;
+    color: #3adb76;
+    text-align: end;
+}
 .lander_intro{
     background-image: url('../images/spg_4_lander.jpeg');
     filter: grayscale(150%);
@@ -13,7 +22,30 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition:all 0.5s ease;
 }
+
+.intro-text {
+    font-family: Roboto;
+    color: #e8e8e8;
+    font-size: 80px;
+    text-align: center;
+}
+
+.intro-subtext {
+    font-family: Roboto;
+    color: #e8e8e8;
+    font-size: 40px;
+    text-align: center;
+}
+
+#divid {
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+}
+
 .parallax_{
     height: 500px;
     background-attachment: fixed;
@@ -38,19 +70,6 @@ body {
     background-image: url('../images/spg_7_furniture.jpeg');
 }
 
-.intro-text {
-    font-family: Roboto;
-    color: #e8e8e8;
-    font-size: 80px;
-    text-align: center;
-}
-
-.intro-subtext {
-    font-family: Roboto;
-    color: #e8e8e8;
-    font-size: 40px;
-    text-align: center;
-}
 
 .hero-odd-left{
     font-family: Roboto;
@@ -239,4 +258,26 @@ body {
     transform: scale(1.1);
     color: white;
     background-color: #4CAF50; /* Green */
+}
+.button_custom_2 {
+    background-color: transparent; /* Green */
+    border: solid;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+}
+.button_custom_2:hover {
+    background-color: rgba(128, 128, 128, 0.51); /* Green */
+    border: solid;
+    border-color: gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
 }
